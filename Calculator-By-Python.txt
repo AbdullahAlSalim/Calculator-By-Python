@@ -1,0 +1,31 @@
+Exam1 = 3   # this Number for First Exam
+Exam2 = 9   # this Number for Second Exam
+Exam3 = 0   # this Number for third Exam
+Exam4 = 3   # this Number for 4 Exam
+Exam5 = 9   # this Number for 5 Exam
+Exam6 = 0   # this Number for 6 Exam
+Exam7 = 3   # this Number for 7 Exam
+Exam8 = 9   # this Number for 8 Exam
+Exam9 = 0   # this Number for 9 Exam
+Exam10 = 0   # this Number for 10 Exam
+
+total = Exam1 + \
+        Exam2 + \
+        Exam3 + \
+        Exam4 + \
+        Exam5 + \
+        Exam6 + \
+        Exam7 + \
+        Exam8 + \
+        Exam9 + \
+        Exam10
+
+print("total contains:", total)
+
+note = total
+ 
+if note >= 15:  # 10 is not constant you can change it if you want
+    print("Congratulations.. you passed the test!")
+ 
+else:
+    print("Sorry.. you failed the test!")
